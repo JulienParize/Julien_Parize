@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Barre de navigation */
@@ -36,25 +37,34 @@ nav ul li a:hover {
     background-color: #0073e6;
 }
 
-/* Conteneur principal */
-.content {
+/* Section présentation */
+.presentation {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 80vh;
-}
-
-/* Encadré noir */
-.box {
-    border: 2px solid black;
-    padding: 40px;
-    text-align: center;
+    justify-content: center;
+    padding: 50px;
     background-color: white;
-    width: 60%;
 }
 
-/* Texte bleu clair */
-.box h1, .box h2 {
-    color: #0073e6;
-    margin: 10px 0;
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.text {
+    max-width: 600px;
+}
+
+/* Graphique interactif */
+.graphique {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.graphique iframe {
+    border: none;
 }
