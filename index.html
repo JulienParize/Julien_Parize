@@ -6,22 +6,22 @@
   <title>Présentation</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Header avec l'image de fond */
+    /* Bandeau avec l'image de fond */
     .header-background {
-      background-image: url("fond.jpg");
+      background-image: url("fond.png"); /* Utilisez fond.png ici */
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center top;
       height: 300px; /* Ajustez la hauteur selon vos besoins */
     }
-
+    
     /* Section de présentation sur fond blanc */
     .presentation {
       background-color: white;
+      padding: 50px 20px;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 50px 20px;
     }
     .photo {
       width: 150px;
@@ -34,8 +34,8 @@
       max-width: 600px;
       color: #333;
     }
-
-    /* Exemple de styles pour la navigation et la section graphique */
+    
+    /* Barre de navigation */
     nav {
       background-color: #333;
       padding: 10px 0;
@@ -60,6 +60,8 @@
     nav ul li a:hover {
       background-color: #0073e6;
     }
+    
+    /* Exemple pour la suite de la page */
     .graphique {
       text-align: center;
       padding: 30px;
@@ -79,33 +81,26 @@
       <li><a href="myleisure.html">Mes loisirs</a></li>
     </ul>
   </nav>
-
-  <!-- Bandeau de fond -->
+  
+  <!-- Bandeau en haut avec l'image de fond -->
   <header class="header-background"></header>
-
-  <!-- Présentation sur fond blanc -->
+  
+  <!-- Section de présentation sur fond blanc -->
   <section class="presentation">
     <img src="moi.jpg" alt="Photo de moi" class="photo">
     <div class="text">
       <h1>Bienvenue sur mon site !</h1>
       <p>
-        Je m'appelle Julien Parize, j'ai 26 ans et je suis bientôt docteur en sciences des matériaux. Actuellement à la recherche d'un emploi, je mets à profit mes compétences en simulations numériques et en analyse de données pour explorer de nouvelles opportunités professionnelles. Ce site est encore en cours de construction, car j'apprends le HTML en autodidacte.
-        Pour une meilleure expérience de navigation sur mobile, pensez à passer en mode paysage.
+        Je m'appelle Julien Parize, j'ai 26 ans et je suis bientôt docteur en sciences des matériaux. Actuellement à la recherche d'un emploi, je mets à profit mes compétences en simulations numériques et en analyse de données pour explorer de nouvelles opportunités professionnelles. Ce site est encore en cours de construction, car j'apprends le HTML en autodidacte. Pour une meilleure expérience de navigation sur mobile, pensez à passer en mode paysage.
       </p>
       <h1>Merci de votre visite.</h1>
     </div>
   </section>
-
-  <!-- Graphique interactif -->
+  
+  <!-- Suite de la page -->
   <section class="graphique">
     <h2>Un exemple de mon travail.</h2>
-    <p>Ci-dessous, vous pouvez voir un graphique interactif que j'ai réalisé pour mes travaux de thèse grâce à Python.</p>
-    <p>Vous pouvez interagir avec le graphique de plusieurs façons :</p>
-    <ul>
-      <li>En haut à gauche : cliquez sur la légende pour afficher ou masquer certains éléments du graphique.</li>
-      <li>En haut à droite : utilisez les outils pour changer les modes de manipulation du graphique, prendre une capture d'écran, zoomer ou déplacer l'affichage.</li>
-    </ul>
-    <p>N'hésitez pas à explorer toutes les fonctionnalités pour mieux comprendre!</p>
+    <p>Ci-dessous, vous pouvez voir un graphique interactif réalisé pour mes travaux de thèse grâce à Python.</p>
     <iframe src="Ga_300.html" width="100%" height="1000px"></iframe>
   </section>
 </body>
