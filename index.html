@@ -6,16 +6,22 @@
   <title>Présentation</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Ajoutez ici vos styles pour la section de présentation */
-    .presentation {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start; /* Aligne le contenu à gauche */
-      padding: 150px 20px 50px; /* Ajout d'un padding horizontal pour ne pas coller le contenu au bord */
+    /* Header avec l'image de fond */
+    .header-background {
       background-image: url("fond.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center top;
+      height: 300px; /* Ajustez la hauteur selon vos besoins */
+    }
+
+    /* Section de présentation sur fond blanc */
+    .presentation {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 50px 20px;
     }
     .photo {
       width: 150px;
@@ -26,7 +32,41 @@
     }
     .text {
       max-width: 600px;
-      color: white; /* Optionnel : pour une meilleure lisibilité sur un fond sombre */
+      color: #333;
+    }
+
+    /* Exemple de styles pour la navigation et la section graphique */
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover {
+      background-color: #0073e6;
+    }
+    .graphique {
+      text-align: center;
+      padding: 30px;
+      background-color: #fff;
+    }
+    .graphique iframe {
+      border: none;
     }
   </style>
 </head>
@@ -40,7 +80,10 @@
     </ul>
   </nav>
 
-  <!-- Présentation -->
+  <!-- Bandeau de fond -->
+  <header class="header-background"></header>
+
+  <!-- Présentation sur fond blanc -->
   <section class="presentation">
     <img src="moi.jpg" alt="Photo de moi" class="photo">
     <div class="text">
