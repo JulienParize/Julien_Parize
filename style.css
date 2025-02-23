@@ -44,8 +44,11 @@ nav ul li a:hover {
     justify-content: center;
     padding: 50px;
     background-color: white;
-}
-
+    background-image: url("fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
 .photo {
     width: 150px;
     height: 150px;
