@@ -6,35 +6,6 @@
   <title>Présentation</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Bandeau avec l'image de fond */
-    .header-background {
-      background-image: url("fond.png"); /* Utilisez fond.png ici */
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top;
-      height: 300px; /* Ajustez la hauteur selon vos besoins */
-    }
-    
-    /* Section de présentation sur fond blanc */
-    .presentation {
-      background-color: white;
-      padding: 50px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    .photo {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-right: 20px;
-      object-fit: cover;
-    }
-    .text {
-      max-width: 600px;
-      color: #333;
-    }
-    
     /* Barre de navigation */
     nav {
       background-color: #333;
@@ -60,8 +31,41 @@
     nav ul li a:hover {
       background-color: #0073e6;
     }
-    
-    /* Exemple pour la suite de la page */
+
+    /* Header avec uniquement l'image de fond */
+    header {
+      height: 300px; /* Ajustez la hauteur selon vos besoins */
+    }
+    .header-background {
+      background-image: url("fond.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Section de présentation sur fond blanc */
+    .presentation {
+      background-color: white;
+      padding: 50px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+      object-fit: cover;
+    }
+    .text {
+      max-width: 600px;
+      color: #333;
+    }
+
+    /* Autres sections */
     .graphique {
       text-align: center;
       padding: 30px;
@@ -81,10 +85,12 @@
       <li><a href="myleisure.html">Mes loisirs</a></li>
     </ul>
   </nav>
-  
-  <!-- Bandeau en haut avec l'image de fond -->
-  <header class="header-background"></header>
-  
+
+  <!-- Header avec l'image de fond -->
+  <header>
+    <div class="header-background"></div>
+  </header>
+
   <!-- Section de présentation sur fond blanc -->
   <section class="presentation">
     <img src="moi.jpg" alt="Photo de moi" class="photo">
@@ -96,7 +102,7 @@
       <h1>Merci de votre visite.</h1>
     </div>
   </section>
-  
+
   <!-- Suite de la page -->
   <section class="graphique">
     <h2>Un exemple de mon travail.</h2>
