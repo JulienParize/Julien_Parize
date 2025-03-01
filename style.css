@@ -45,7 +45,7 @@ nav ul li a:hover {
 .bandeau {
     background: url('fonod.jpg') no-repeat center center;
     background-size: 100%;
-    height: 200px; /* Ajuste la hauteur selon ton besoin */
+    height: 250px; /* Ajuste la hauteur selon ton besoin */
 }
 
 /* Section présentation */
