@@ -44,7 +44,7 @@ nav ul li a:hover {
 /* Bandeau sous la barre de navigation (sans texte) */
 .bandeau {
     background: url('fonod.jpg') no-repeat center center;
-    background-size: contain; /* Permet de voir plus de l’image */
+    background-size: 150%;
     height: 200px; /* Ajuste la hauteur selon ton besoin */
 }
 
