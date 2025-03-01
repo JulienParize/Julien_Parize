@@ -12,7 +12,15 @@ nav {
     background-color: #333;
     padding: 10px 0;
 }
-
+.bandeau {
+    background: url('fond.png') no-repeat center center; /* Utilise fond.png comme image de fond */
+    background-size: cover; /* Ajuste l'image pour couvrir toute la largeur */
+    text-align: center; /* Centre le texte horizontalement */
+    color: white; /* Couleur du texte pour contraster */
+    padding: 50px 0; /* Ajuste la hauteur du bandeau */
+    font-size: 2em; /* Taille du texte */
+    font-weight: bold; /* Met le texte en gras */
+}
 nav ul {
     list-style: none;
     margin: 0;
